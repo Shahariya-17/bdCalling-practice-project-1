@@ -426,3 +426,50 @@
     opacity: 1;  
 }
 
+
+/* Follow section */
+
+
+#follow-heading{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #503217;
+}
+
+#follow-div{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+#image-1{
+    height: 460px;
+    width: 302px;
+    flex: 1;
+    border-radius: 12px;
+}
+
+#image-2{
+    height: 380px;
+    width: 303px;
+    flex: 1;
+    border-radius: 12px;
+}
+
+#image-3{
+    height: 337px;
+    width: 300px;
+    flex: 1;
+    border-radius: 12px;
+}
+
+#image-1{
+    height: 337px;
+    width: 300px;
+    flex: 1;
+    border-radius: 12px;
+}
