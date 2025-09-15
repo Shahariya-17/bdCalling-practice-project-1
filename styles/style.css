@@ -1,0 +1,32 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo{
+    display: flex;
+    gap: 5px;
+}
+
+#logo-img{
+    height: 40px;
+    width: 40px;
+}
+
+#logo-text{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #503217;
+}
+
+#nav-links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
