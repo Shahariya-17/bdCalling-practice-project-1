@@ -286,7 +286,6 @@
   align-items: center;
   gap: 50px;
   padding: 60px 30px;
-  background-color: #E8E6DE;
 }
 
 .form-card {
@@ -371,4 +370,59 @@
   height: 16px;
 }
 
+
+/* Clients section */
+#happy-clients-section{
+    padding: 40px 20px;
+    background-color: #F2F1EC;
+}
+
+#happy-clients-card{
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    max-width: 800px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+#happy-clients-heading{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #503217;
+}
+
+#happy-clients-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#clients-logos {
+    display: flex;            
+    justify-content: center; 
+    align-items: center;      
+    gap: 20px;                
+    margin: 40px 0 0 0;   
+}
+
+#clients-logos img {
+    height: 40px;
+    width: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+#clients-logos img:hover {
+    opacity: 1;  
+}
 
