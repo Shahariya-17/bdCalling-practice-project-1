@@ -255,3 +255,25 @@
     border-radius: 12px;
 }
 
+
+/* Collection Section */
+.collection{
+    padding: 40px 20px;
+    background-color: #ECEAE3;
+}
+
+#collection-heading{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #503217;
+}
+
+#collection-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  width: 70%;
+  margin: auto;
+}
