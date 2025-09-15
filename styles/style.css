@@ -227,3 +227,21 @@
 }
 
 
+
+/* Health product section */
+#health-product-heading{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #503217;
+}
+
+#health-product-div{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    width: 70%;
+    margin: auto;
+}
+
