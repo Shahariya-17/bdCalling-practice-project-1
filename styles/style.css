@@ -1,51 +1,66 @@
 
-
-
 /* Header Section */
-.header{
+.header {
+    position: fixed;        
+    top: 0;
+    left: 0;
+    width: 100%;          
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 40px;    
     background-color: #f8f8f8;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;          
+    box-sizing: border-box; 
 }
 
-#logo{
+
+#logo {
     display: flex;
-    gap: 5px;
+    align-items: center;
+    gap: 8px;
 }
 
-#logo-img{
+#logo-img {
     height: 40px;
     width: 40px;
 }
 
-#logo-text{
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 5px;
+#logo-text {
+    font-size: 24px;
+    font-weight: 500px;
     color: #503217;
 }
 
+
 #nav-links {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #nav-links a {
-  text-decoration: none;
-  color: #503217; 
-  font-weight: 500;
-  transition: color 0.3s ease, border-bottom 0.3s ease;
+    text-decoration: none;
+    color: #503217; 
+    font-weight: 500;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    white-space: nowrap;   
 }
 
 #nav-links a:hover {
-  color: #d35400;
-  border-bottom: 2px solid #d35400;
-  padding-bottom: 2px;
+    color: #d35400;
+    border-bottom: 2px solid #d35400;
+    padding-bottom: 2px;
 }
+
+
+body {
+    padding-top: 70px;  
+}
+
 
 
 
@@ -428,8 +443,6 @@
 
 
 /* Follow section */
-
-
 #follow-heading{
     margin-top: 50px;
     text-align: center;
